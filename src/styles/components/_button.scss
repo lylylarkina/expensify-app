@@ -17,3 +17,15 @@
 .button--secondary {
     background: #888;
 }
+
+.button-icon {
+    background: $blue;
+    border: none;
+    color: white;
+    padding: $s-size;
+    margin-right: 5px;
+    width: 40px;
+    &:hover {
+        background: darken($blue, 10%);
+    } 
+}
